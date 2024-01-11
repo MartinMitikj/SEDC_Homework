@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#container {
+  border: 2px solid black;
+  width: 434px;
+  height: 692px;
+  margin: auto;
+}
+
+button {
+  width: 108px;
+  height: 108px;
+  border: 2px solid black;
+  margin-left: -2px;
+  margin-right: -2px;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+#sum,
+#subtract,
+#multiply {
+  margin-left: -3px;
+}
+
+#clear {
+  width: 216px;
+}
+
+#zero {
+  width: 216px;
+}
+
+.gray {
+  background-color: grey;
+}
+
+.orange {
+  background-color: orange;
+}
+
+
+
+
+#display-container {
+  background-color: black;
+  width: 432px;
+  height: 150px;
+  border-bottom: 1px solid black;
+  padding: 20px;
+  color: white;
+  font-size: 50px;
+  text-align: right;
+}
