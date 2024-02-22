@@ -1,0 +1,116 @@
+/* style.css */
+
+/* Resetting default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Header styles */
+.header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.header h1 {
+  font-size: 2rem;
+}
+
+/* Container styles */
+.bodyTag {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Input field styles */
+#inputs {
+  margin-bottom: 20px;
+}
+
+#inputs div {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* Button styles */
+.buttons {
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/* Table styles */
+.styled-table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.styled-table th,
+.styled-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.styled-table th {
+  background-color: #333;
+  color: #fff;
+  text-align: left;
+}
+
+.styled-table td {
+  text-align: center;
+}
+
+.styled-table td:first-child {
+  text-transform: capitalize;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .bodyTag {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header h1 {
+    font-size: 1.5rem;
+  }
+}
